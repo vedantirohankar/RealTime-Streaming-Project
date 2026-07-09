@@ -119,28 +119,47 @@ An interactive Power BI dashboard was created to analyze sales performance and b
 ## 📁 Project Structure
 
 ```text
-RealTime-Streaming-Project/
+REALTIME-STREAMING/
+│
+├── bronze/
+│   ├── checkpoint/
+│   ├── checkpoint_kafka_to_bronze/
+│   └── orders/
+│
+├── consumer/
+│   └── consumer.py
+│
+├── docker/
+│   └── docker-compose.yml
+│
+├── gold/
+│   └── orders/
+│       ├── _SUCCESS
+│       ├── ._SUCCESS.crc
+│       ├── part-00000-*.csv
+│       └── .part-00000-*.crc
+│
+├── images/
+│   └── Architecture1.png.png
+│
+├── powerbi/
+│   └── OrdersDB.pbix
 │
 ├── producer/
 │   └── producer.py
 │
+├── silver/
+│   ├── checkpoint/
+│   └── orders/
+│
 ├── spark_jobs/
 │   ├── bronze_to_silver.py
+│   ├── kafka_to_bronze.py
 │   └── silver_to_gold.py
 │
-├── data/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
-│
-├── images/
-│   └── Architecture1.png
-│
-├── docker-compose.yml
-├── README.md
-└── .gitignore
+├── gitignore.txt
+└── README.md
 ```
-
 ---
 
 ## ⚙️ How to Run the Project
