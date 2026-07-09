@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+.env
+*.env
+
+checkpoint/
+checkpoints/
+logs/
+*.log
+
+.idea/
+.vscode/

@@ -1,0 +1,2 @@
+OrderID,CustomerID,ProductID,Quantity,Price,City,OrderTime
+182753,8654,266,2,1920,Begusarai,2026-07-08T21:39:17.000+05:30
