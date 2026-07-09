@@ -2,7 +2,7 @@
 # Real-Time Streaming Data Pipeline 🚀
 
 \# Real-Time Sales Analytics Pipeline 🚀
->>>>>>> 4b3dd6a (Add detailed README with architecture image)
+
 
 ## 📌 Project Overview
 
